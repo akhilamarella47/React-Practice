@@ -1,0 +1,61 @@
+CREATE (Insert) Scenarios
+
+Insert a new student with basic details (name, age, grade, fees).
+
+Insert multiple students at once, including contact information and subjects.
+
+Insert a student with nested documents (contact details) and arrays (subjects).
+
+READ (Find) Scenarios – Basic
+
+Retrieve all students from the database.
+
+Retrieve details of a specific student by name.
+
+READ (Find) Scenarios – Comparison Operators
+
+Find students whose fees are exactly 50,000.
+
+Find students who are not in 10th grade.
+
+Find students paying more than 70,000 in fees.
+
+Find students aged 16 or older.
+
+Find students paying less than 40,000 in fees.
+
+Find students aged 14 or younger.
+
+Find students in grades 9th or 11th.
+
+Find students not in grades 9th or 12th.
+
+UPDATE Scenarios
+
+Update a student’s fees by name.
+
+Update multiple students’ grade who are in 9th to 10th.
+
+Add a new subject to a student’s subject array.
+
+Remove a subject from a student’s subject array.
+
+Update nested contact information for a student.
+
+Increase fees by 10% for students paying more than 50,000.
+
+Set a default value for grade if it is missing.
+
+Rename a field from "fees" to "tuition Fees".
+
+DELETE Scenarios
+
+Delete a student by name.
+
+Delete multiple students paying less than 30,000 in fees.
+
+Delete all students with no subjects.
+
+Delete a student whose age is above 18.
+
+Delete all records (clear database).
