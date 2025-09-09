@@ -1,0 +1,13 @@
+CRUD operations:
+Create :To insert data into Data Base.(user registration)
+**Read :**To retrieve or fetch data from the DB.(User Login, Dispalying products)
+test> show dbs
+Faang    8.00 KiB
+admin   40.00 KiB
+config  48.00 KiB
+local   72.00 KiB
+test> db.createCollection("users");
+{ ok: 1 }
+test> show collections
+users
+test>
